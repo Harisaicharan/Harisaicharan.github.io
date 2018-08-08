@@ -1,0 +1,78 @@
+\hypertarget{classboost_1_1intrusive_1_1suffix__tree__impl}{}\section{boost\+:\+:intrusive\+:\+:suffix\+\_\+tree\+\_\+impl$<$ Value\+Traits, Size\+Type, Constant\+Time\+Size, Header\+Holder $>$ Class Template Reference}
+\label{classboost_1_1intrusive_1_1suffix__tree__impl}\index{boost\+::intrusive\+::suffix\+\_\+tree\+\_\+impl$<$ Value\+Traits, Size\+Type, Constant\+Time\+Size, Header\+Holder $>$@{boost\+::intrusive\+::suffix\+\_\+tree\+\_\+impl$<$ Value\+Traits, Size\+Type, Constant\+Time\+Size, Header\+Holder $>$}}
+\subsection*{Public Types}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classboost_1_1intrusive_1_1suffix__tree__impl_a30d9e164c38c11cd38917ad14e9f3e88}\label{classboost_1_1intrusive_1_1suffix__tree__impl_a30d9e164c38c11cd38917ad14e9f3e88}} 
+typedef Value\+Traits {\bfseries value\+\_\+traits}
+\item 
+\mbox{\Hypertarget{classboost_1_1intrusive_1_1suffix__tree__impl_a4fac695b2c8ea16789711a9840af44c4}\label{classboost_1_1intrusive_1_1suffix__tree__impl_a4fac695b2c8ea16789711a9840af44c4}} 
+typedef value\+\_\+traits\+::node\+\_\+traits {\bfseries node\+\_\+traits}
+\item 
+\mbox{\Hypertarget{classboost_1_1intrusive_1_1suffix__tree__impl_a102dc398a09d1dcaa021891584068f03}\label{classboost_1_1intrusive_1_1suffix__tree__impl_a102dc398a09d1dcaa021891584068f03}} 
+typedef node\+\_\+traits\+::node {\bfseries node}
+\item 
+\mbox{\Hypertarget{classboost_1_1intrusive_1_1suffix__tree__impl_a055e19a35a8268047cec3a6e9341dfca}\label{classboost_1_1intrusive_1_1suffix__tree__impl_a055e19a35a8268047cec3a6e9341dfca}} 
+typedef node\+::node\+\_\+ptr {\bfseries node\+\_\+ptr}
+\item 
+\mbox{\Hypertarget{classboost_1_1intrusive_1_1suffix__tree__impl_af8ad26e95f6cc7ba4a814d02eb8f4320}\label{classboost_1_1intrusive_1_1suffix__tree__impl_af8ad26e95f6cc7ba4a814d02eb8f4320}} 
+typedef value\+\_\+traits\+::pointer {\bfseries pointer}
+\item 
+\mbox{\Hypertarget{classboost_1_1intrusive_1_1suffix__tree__impl_a592893260249dc653dfe9f36ea5d14b6}\label{classboost_1_1intrusive_1_1suffix__tree__impl_a592893260249dc653dfe9f36ea5d14b6}} 
+typedef pointer\+\_\+traits$<$ pointer $>$\+::element\+\_\+type {\bfseries value\+\_\+type}
+\item 
+\mbox{\Hypertarget{classboost_1_1intrusive_1_1suffix__tree__impl_af66898eb8c69a952f6a92f6c6b704bed}\label{classboost_1_1intrusive_1_1suffix__tree__impl_af66898eb8c69a952f6a92f6c6b704bed}} 
+typedef pointer\+\_\+traits$<$ pointer $>$\+::reference {\bfseries reference}
+\item 
+\mbox{\Hypertarget{classboost_1_1intrusive_1_1suffix__tree__impl_a3e079dda4e4422ad9c911470f3e8c7e2}\label{classboost_1_1intrusive_1_1suffix__tree__impl_a3e079dda4e4422ad9c911470f3e8c7e2}} 
+typedef suffix\+\_\+tree\+\_\+algorithms$<$ node\+\_\+traits $>$ {\bfseries algo}
+\item 
+\mbox{\Hypertarget{classboost_1_1intrusive_1_1suffix__tree__impl_a5cf354495727a0b22948de4115d0a2b8}\label{classboost_1_1intrusive_1_1suffix__tree__impl_a5cf354495727a0b22948de4115d0a2b8}} 
+typedef node\+\_\+traits\+::const\+\_\+node\+\_\+ptr {\bfseries const\+\_\+node\+\_\+ptr}
+\item 
+\mbox{\Hypertarget{classboost_1_1intrusive_1_1suffix__tree__impl_ad98ea23cb22b9adc18366b5d8ab56d9b}\label{classboost_1_1intrusive_1_1suffix__tree__impl_ad98ea23cb22b9adc18366b5d8ab56d9b}} 
+typedef Size\+Type {\bfseries size\+\_\+type}
+\item 
+\mbox{\Hypertarget{classboost_1_1intrusive_1_1suffix__tree__impl_a2df3b52dced59346b59db470e93ba87c}\label{classboost_1_1intrusive_1_1suffix__tree__impl_a2df3b52dced59346b59db470e93ba87c}} 
+typedef suffix\+\_\+tree\+\_\+iterator$<$ value\+\_\+traits, false $>$ {\bfseries iterator}
+\item 
+\mbox{\Hypertarget{classboost_1_1intrusive_1_1suffix__tree__impl_a221fd6a26db0f6aa44951317caa66126}\label{classboost_1_1intrusive_1_1suffix__tree__impl_a221fd6a26db0f6aa44951317caa66126}} 
+typedef suffix\+\_\+tree\+\_\+iterator$<$ value\+\_\+traits, true $>$ {\bfseries const\+\_\+iterator}
+\item 
+\mbox{\Hypertarget{classboost_1_1intrusive_1_1suffix__tree__impl_acb00482132fdd79dc983b313f596e364}\label{classboost_1_1intrusive_1_1suffix__tree__impl_acb00482132fdd79dc983b313f596e364}} 
+typedef detail\+::get\+\_\+header\+\_\+holder\+\_\+type$<$ value\+\_\+traits, Header\+Holder $>$\+::type {\bfseries header\+\_\+holder\+\_\+type}
+\item 
+\mbox{\Hypertarget{classboost_1_1intrusive_1_1suffix__tree__impl_a256654460348de1003229187c2483bc0}\label{classboost_1_1intrusive_1_1suffix__tree__impl_a256654460348de1003229187c2483bc0}} 
+typedef implementation\+\_\+defined {\bfseries type}
+\end{DoxyCompactItemize}
+\subsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classboost_1_1intrusive_1_1suffix__tree__impl_a9c2e0b561fdd556da686d16c8b6feb40}\label{classboost_1_1intrusive_1_1suffix__tree__impl_a9c2e0b561fdd556da686d16c8b6feb40}} 
+static const bool {\bfseries constant\+\_\+time\+\_\+size} = Constant\+Time\+Size
+\item 
+\mbox{\Hypertarget{classboost_1_1intrusive_1_1suffix__tree__impl_ae4e217b23e8ea4d529d0aa2d0314462d}\label{classboost_1_1intrusive_1_1suffix__tree__impl_ae4e217b23e8ea4d529d0aa2d0314462d}} 
+static const bool {\bfseries stateful\+\_\+value\+\_\+traits} = detail\+::is\+\_\+stateful\+\_\+value\+\_\+traits$<$value\+\_\+traits$>$\+::value
+\item 
+static const bool {\bfseries has\+\_\+container\+\_\+from\+\_\+iterator}
+\end{DoxyCompactItemize}
+
+
+\subsection{Member Data Documentation}
+\mbox{\Hypertarget{classboost_1_1intrusive_1_1suffix__tree__impl_a2661f32bb11991cfc1e5e5b7f40d658e}\label{classboost_1_1intrusive_1_1suffix__tree__impl_a2661f32bb11991cfc1e5e5b7f40d658e}} 
+\index{boost\+::intrusive\+::suffix\+\_\+tree\+\_\+impl@{boost\+::intrusive\+::suffix\+\_\+tree\+\_\+impl}!has\+\_\+container\+\_\+from\+\_\+iterator@{has\+\_\+container\+\_\+from\+\_\+iterator}}
+\index{has\+\_\+container\+\_\+from\+\_\+iterator@{has\+\_\+container\+\_\+from\+\_\+iterator}!boost\+::intrusive\+::suffix\+\_\+tree\+\_\+impl@{boost\+::intrusive\+::suffix\+\_\+tree\+\_\+impl}}
+\subsubsection{\texorpdfstring{has\+\_\+container\+\_\+from\+\_\+iterator}{has\_container\_from\_iterator}}
+{\footnotesize\ttfamily template$<$typename Value\+Traits , class Size\+Type , bool Constant\+Time\+Size, typename Header\+Holder $>$ \\
+const bool \hyperlink{classboost_1_1intrusive_1_1suffix__tree__impl}{boost\+::intrusive\+::suffix\+\_\+tree\+\_\+impl}$<$ Value\+Traits, Size\+Type, Constant\+Time\+Size, Header\+Holder $>$\+::has\+\_\+container\+\_\+from\+\_\+iterator\hspace{0.3cm}{\ttfamily [static]}}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}
+=
+        detail::is\_same< header\_holder\_type, detail::default\_header\_holder< node\_traits > >::value
+\end{DoxyCode}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+/home/hari/\+G\+S\+O\+C/boost\+\_\+1\+\_\+67\+\_\+0/boost/\+Advanced-\/\+Intrusive-\/master/\+Suffix\+\_\+tree/suffix\+\_\+tree.\+hpp\end{DoxyCompactItemize}

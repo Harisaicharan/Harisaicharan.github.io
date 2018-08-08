@@ -1,0 +1,81 @@
+\hypertarget{classboost_1_1intrusive_1_1fenwick__tree__impl}{}\section{boost\+:\+:intrusive\+:\+:fenwick\+\_\+tree\+\_\+impl$<$ Value\+Traits, Size\+Type, Constant\+Time\+Size, Header\+Holder $>$ Class Template Reference}
+\label{classboost_1_1intrusive_1_1fenwick__tree__impl}\index{boost\+::intrusive\+::fenwick\+\_\+tree\+\_\+impl$<$ Value\+Traits, Size\+Type, Constant\+Time\+Size, Header\+Holder $>$@{boost\+::intrusive\+::fenwick\+\_\+tree\+\_\+impl$<$ Value\+Traits, Size\+Type, Constant\+Time\+Size, Header\+Holder $>$}}
+\subsection*{Public Types}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classboost_1_1intrusive_1_1fenwick__tree__impl_a2e87a9b3164c911991b62a4405bdca5f}\label{classboost_1_1intrusive_1_1fenwick__tree__impl_a2e87a9b3164c911991b62a4405bdca5f}} 
+typedef Value\+Traits {\bfseries value\+\_\+traits}
+\item 
+\mbox{\Hypertarget{classboost_1_1intrusive_1_1fenwick__tree__impl_a6b28754cf23051d44f0caae912a22b04}\label{classboost_1_1intrusive_1_1fenwick__tree__impl_a6b28754cf23051d44f0caae912a22b04}} 
+typedef value\+\_\+traits\+::node\+\_\+traits {\bfseries node\+\_\+traits}
+\item 
+\mbox{\Hypertarget{classboost_1_1intrusive_1_1fenwick__tree__impl_a0aea78f70f440df639452c1fff3e7b57}\label{classboost_1_1intrusive_1_1fenwick__tree__impl_a0aea78f70f440df639452c1fff3e7b57}} 
+typedef node\+\_\+traits\+::node {\bfseries node}
+\item 
+\mbox{\Hypertarget{classboost_1_1intrusive_1_1fenwick__tree__impl_a6546b8d5a2d043e99e5e28853a8da248}\label{classboost_1_1intrusive_1_1fenwick__tree__impl_a6546b8d5a2d043e99e5e28853a8da248}} 
+typedef node\+::node\+\_\+ptr {\bfseries node\+\_\+ptr}
+\item 
+\mbox{\Hypertarget{classboost_1_1intrusive_1_1fenwick__tree__impl_a5900d4b71e9c5715db38a848acbe270b}\label{classboost_1_1intrusive_1_1fenwick__tree__impl_a5900d4b71e9c5715db38a848acbe270b}} 
+typedef value\+\_\+traits\+::pointer {\bfseries pointer}
+\item 
+\mbox{\Hypertarget{classboost_1_1intrusive_1_1fenwick__tree__impl_aefd70a2712872e79b867c1a5c59a4a26}\label{classboost_1_1intrusive_1_1fenwick__tree__impl_aefd70a2712872e79b867c1a5c59a4a26}} 
+typedef pointer\+\_\+traits$<$ pointer $>$\+::element\+\_\+type {\bfseries value\+\_\+type}
+\item 
+\mbox{\Hypertarget{classboost_1_1intrusive_1_1fenwick__tree__impl_a5fb6f0db4d5227a537e8a07eb1378e8e}\label{classboost_1_1intrusive_1_1fenwick__tree__impl_a5fb6f0db4d5227a537e8a07eb1378e8e}} 
+typedef pointer\+\_\+traits$<$ pointer $>$\+::reference {\bfseries reference}
+\item 
+\mbox{\Hypertarget{classboost_1_1intrusive_1_1fenwick__tree__impl_afd6f10ecfa8d7232152bc249cc61d246}\label{classboost_1_1intrusive_1_1fenwick__tree__impl_afd6f10ecfa8d7232152bc249cc61d246}} 
+typedef fenwick\+\_\+tree\+\_\+algorithms$<$ node\+\_\+traits $>$ {\bfseries algo}
+\item 
+\mbox{\Hypertarget{classboost_1_1intrusive_1_1fenwick__tree__impl_a2c2dc37954c7b844f875adecb7d668a1}\label{classboost_1_1intrusive_1_1fenwick__tree__impl_a2c2dc37954c7b844f875adecb7d668a1}} 
+typedef node\+\_\+traits\+::const\+\_\+node\+\_\+ptr {\bfseries const\+\_\+node\+\_\+ptr}
+\item 
+\mbox{\Hypertarget{classboost_1_1intrusive_1_1fenwick__tree__impl_abf24adccfa8e65e8a382d4e25f906381}\label{classboost_1_1intrusive_1_1fenwick__tree__impl_abf24adccfa8e65e8a382d4e25f906381}} 
+typedef Size\+Type {\bfseries size\+\_\+type}
+\item 
+\mbox{\Hypertarget{classboost_1_1intrusive_1_1fenwick__tree__impl_a6293502e34de9b16ae198ec557c82132}\label{classboost_1_1intrusive_1_1fenwick__tree__impl_a6293502e34de9b16ae198ec557c82132}} 
+typedef fenwick\+\_\+tree\+\_\+iterator$<$ value\+\_\+traits, false $>$ {\bfseries iterator}
+\item 
+\mbox{\Hypertarget{classboost_1_1intrusive_1_1fenwick__tree__impl_a54559dc10b4a93114b1048ad9e41b5f1}\label{classboost_1_1intrusive_1_1fenwick__tree__impl_a54559dc10b4a93114b1048ad9e41b5f1}} 
+typedef fenwick\+\_\+tree\+\_\+iterator$<$ value\+\_\+traits, true $>$ {\bfseries const\+\_\+iterator}
+\item 
+\mbox{\Hypertarget{classboost_1_1intrusive_1_1fenwick__tree__impl_acc226a36fd0f4814574917193e0c59ef}\label{classboost_1_1intrusive_1_1fenwick__tree__impl_acc226a36fd0f4814574917193e0c59ef}} 
+typedef value\+\_\+type\+::data\+\_\+type {\bfseries data\+\_\+type}
+\item 
+\mbox{\Hypertarget{classboost_1_1intrusive_1_1fenwick__tree__impl_ae20783e43141c54fd66b9b0c582ed94a}\label{classboost_1_1intrusive_1_1fenwick__tree__impl_ae20783e43141c54fd66b9b0c582ed94a}} 
+typedef detail\+::get\+\_\+header\+\_\+holder\+\_\+type$<$ value\+\_\+traits, Header\+Holder $>$\+::type {\bfseries header\+\_\+holder\+\_\+type}
+\item 
+\mbox{\Hypertarget{classboost_1_1intrusive_1_1fenwick__tree__impl_ad64ef3981e447fd80b987c085bca507f}\label{classboost_1_1intrusive_1_1fenwick__tree__impl_ad64ef3981e447fd80b987c085bca507f}} 
+typedef implementation\+\_\+defined {\bfseries type}
+\end{DoxyCompactItemize}
+\subsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classboost_1_1intrusive_1_1fenwick__tree__impl_a271d33ddb2e4b9e70f400e7dc763efe4}\label{classboost_1_1intrusive_1_1fenwick__tree__impl_a271d33ddb2e4b9e70f400e7dc763efe4}} 
+static const bool {\bfseries constant\+\_\+time\+\_\+size} = Constant\+Time\+Size
+\item 
+\mbox{\Hypertarget{classboost_1_1intrusive_1_1fenwick__tree__impl_aa276108f012d96711ffa4ad519975757}\label{classboost_1_1intrusive_1_1fenwick__tree__impl_aa276108f012d96711ffa4ad519975757}} 
+static const bool {\bfseries stateful\+\_\+value\+\_\+traits} = detail\+::is\+\_\+stateful\+\_\+value\+\_\+traits$<$value\+\_\+traits$>$\+::value
+\item 
+static const bool {\bfseries has\+\_\+container\+\_\+from\+\_\+iterator}
+\end{DoxyCompactItemize}
+
+
+\subsection{Member Data Documentation}
+\mbox{\Hypertarget{classboost_1_1intrusive_1_1fenwick__tree__impl_af34f6affb96b4eee4abd0e16c4c506dc}\label{classboost_1_1intrusive_1_1fenwick__tree__impl_af34f6affb96b4eee4abd0e16c4c506dc}} 
+\index{boost\+::intrusive\+::fenwick\+\_\+tree\+\_\+impl@{boost\+::intrusive\+::fenwick\+\_\+tree\+\_\+impl}!has\+\_\+container\+\_\+from\+\_\+iterator@{has\+\_\+container\+\_\+from\+\_\+iterator}}
+\index{has\+\_\+container\+\_\+from\+\_\+iterator@{has\+\_\+container\+\_\+from\+\_\+iterator}!boost\+::intrusive\+::fenwick\+\_\+tree\+\_\+impl@{boost\+::intrusive\+::fenwick\+\_\+tree\+\_\+impl}}
+\subsubsection{\texorpdfstring{has\+\_\+container\+\_\+from\+\_\+iterator}{has\_container\_from\_iterator}}
+{\footnotesize\ttfamily template$<$typename Value\+Traits , class Size\+Type , bool Constant\+Time\+Size, typename Header\+Holder $>$ \\
+const bool \hyperlink{classboost_1_1intrusive_1_1fenwick__tree__impl}{boost\+::intrusive\+::fenwick\+\_\+tree\+\_\+impl}$<$ Value\+Traits, Size\+Type, Constant\+Time\+Size, Header\+Holder $>$\+::has\+\_\+container\+\_\+from\+\_\+iterator\hspace{0.3cm}{\ttfamily [static]}}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}
+=
+        detail::is\_same< header\_holder\_type, detail::default\_header\_holder< node\_traits > >::value
+\end{DoxyCode}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+/home/hari/\+G\+S\+O\+C/boost\+\_\+1\+\_\+67\+\_\+0/boost/\+Advanced-\/\+Intrusive-\/master/\+Fenwick\+\_\+tree/fenwick\+\_\+tree.\+hpp\end{DoxyCompactItemize}

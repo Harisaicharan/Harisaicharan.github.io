@@ -1,0 +1,122 @@
+\hypertarget{classboost_1_1intrusive_1_1segment__tree__impl}{}\section{boost\+:\+:intrusive\+:\+:segment\+\_\+tree\+\_\+impl$<$ Value\+Traits, Size\+Type, Constant\+Time\+Size, Header\+Holder $>$ Class Template Reference}
+\label{classboost_1_1intrusive_1_1segment__tree__impl}\index{boost\+::intrusive\+::segment\+\_\+tree\+\_\+impl$<$ Value\+Traits, Size\+Type, Constant\+Time\+Size, Header\+Holder $>$@{boost\+::intrusive\+::segment\+\_\+tree\+\_\+impl$<$ Value\+Traits, Size\+Type, Constant\+Time\+Size, Header\+Holder $>$}}
+
+
+{\ttfamily \#include $<$segment\+\_\+tree.\+hpp$>$}
+
+\subsection*{Public Types}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classboost_1_1intrusive_1_1segment__tree__impl_a929c1b3f1e6bb851a911b9b54a4c0dc2}\label{classboost_1_1intrusive_1_1segment__tree__impl_a929c1b3f1e6bb851a911b9b54a4c0dc2}} 
+typedef Value\+Traits {\bfseries value\+\_\+traits}
+\item 
+\mbox{\Hypertarget{classboost_1_1intrusive_1_1segment__tree__impl_a4530e7ef515902af7c906bbe0c6bb5f2}\label{classboost_1_1intrusive_1_1segment__tree__impl_a4530e7ef515902af7c906bbe0c6bb5f2}} 
+typedef value\+\_\+traits\+::node\+\_\+traits {\bfseries node\+\_\+traits}
+\item 
+\mbox{\Hypertarget{classboost_1_1intrusive_1_1segment__tree__impl_a3d2c069acb862852d00a9c747ceacb6d}\label{classboost_1_1intrusive_1_1segment__tree__impl_a3d2c069acb862852d00a9c747ceacb6d}} 
+typedef node\+\_\+traits\+::node {\bfseries node}
+\item 
+\mbox{\Hypertarget{classboost_1_1intrusive_1_1segment__tree__impl_a3fcf2b7f82b582e4dcf22eca8914f664}\label{classboost_1_1intrusive_1_1segment__tree__impl_a3fcf2b7f82b582e4dcf22eca8914f664}} 
+typedef node\+::node\+\_\+ptr {\bfseries node\+\_\+ptr}
+\item 
+\mbox{\Hypertarget{classboost_1_1intrusive_1_1segment__tree__impl_a4345924066a33f309182d027249887ab}\label{classboost_1_1intrusive_1_1segment__tree__impl_a4345924066a33f309182d027249887ab}} 
+typedef value\+\_\+traits\+::pointer {\bfseries pointer}
+\item 
+\mbox{\Hypertarget{classboost_1_1intrusive_1_1segment__tree__impl_ab1fd253eacbcdbacb8e5e73fc580626d}\label{classboost_1_1intrusive_1_1segment__tree__impl_ab1fd253eacbcdbacb8e5e73fc580626d}} 
+typedef pointer\+\_\+traits$<$ pointer $>$\+::element\+\_\+type {\bfseries value\+\_\+type}
+\item 
+\mbox{\Hypertarget{classboost_1_1intrusive_1_1segment__tree__impl_a62cd48d63afd795ad2c6f979266abe94}\label{classboost_1_1intrusive_1_1segment__tree__impl_a62cd48d63afd795ad2c6f979266abe94}} 
+typedef pointer\+\_\+traits$<$ pointer $>$\+::reference {\bfseries reference}
+\item 
+\mbox{\Hypertarget{classboost_1_1intrusive_1_1segment__tree__impl_a826a6c90baa684755f5035b74683e762}\label{classboost_1_1intrusive_1_1segment__tree__impl_a826a6c90baa684755f5035b74683e762}} 
+typedef segment\+\_\+tree\+\_\+algorithms$<$ node\+\_\+traits $>$ {\bfseries algo}
+\item 
+\mbox{\Hypertarget{classboost_1_1intrusive_1_1segment__tree__impl_a92c83c631da1bcdaa004756ea98b2ec5}\label{classboost_1_1intrusive_1_1segment__tree__impl_a92c83c631da1bcdaa004756ea98b2ec5}} 
+typedef value\+\_\+type\+::data\+\_\+type {\bfseries data\+\_\+type}
+\item 
+\mbox{\Hypertarget{classboost_1_1intrusive_1_1segment__tree__impl_a9f1be9b01be5078fb59b2e34520b374a}\label{classboost_1_1intrusive_1_1segment__tree__impl_a9f1be9b01be5078fb59b2e34520b374a}} 
+typedef segtree\+\_\+iterator$<$ value\+\_\+traits, false $>$ {\bfseries iterator}
+\item 
+\mbox{\Hypertarget{classboost_1_1intrusive_1_1segment__tree__impl_a6957e501101f1d5427f611f6ee8d1ded}\label{classboost_1_1intrusive_1_1segment__tree__impl_a6957e501101f1d5427f611f6ee8d1ded}} 
+typedef segtree\+\_\+iterator$<$ value\+\_\+traits, true $>$ {\bfseries const\+\_\+iterator}
+\item 
+\mbox{\Hypertarget{classboost_1_1intrusive_1_1segment__tree__impl_aa0f2dc05aa707192c6daa27f509642ed}\label{classboost_1_1intrusive_1_1segment__tree__impl_aa0f2dc05aa707192c6daa27f509642ed}} 
+typedef node\+\_\+traits\+::const\+\_\+node\+\_\+ptr {\bfseries const\+\_\+node\+\_\+ptr}
+\item 
+\mbox{\Hypertarget{classboost_1_1intrusive_1_1segment__tree__impl_ad11efa20e1eb479bc39e13ea312ca088}\label{classboost_1_1intrusive_1_1segment__tree__impl_ad11efa20e1eb479bc39e13ea312ca088}} 
+typedef Size\+Type {\bfseries size\+\_\+type}
+\end{DoxyCompactItemize}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classboost_1_1intrusive_1_1segment__tree__impl_abda73e6d62b92e32db5df65cb425ac59}{segment\+\_\+tree\+\_\+impl} (value\+\_\+type input\mbox{[}$\,$\mbox{]}, int start, int end)
+\begin{DoxyCompactList}\small\item\em This function initialises and constructs tree. \end{DoxyCompactList}\item 
+void \hyperlink{classboost_1_1intrusive_1_1segment__tree__impl_a1b2e8afd13fc6e33640665efa2677dba}{build} (auto func)
+\item 
+\mbox{\Hypertarget{classboost_1_1intrusive_1_1segment__tree__impl_ad0aa848ccb9520e36cf4dfbf9149b150}\label{classboost_1_1intrusive_1_1segment__tree__impl_ad0aa848ccb9520e36cf4dfbf9149b150}} 
+data\+\_\+type {\bfseries query} (auto func, int query\+\_\+start, int query\+\_\+end)
+\item 
+\mbox{\Hypertarget{classboost_1_1intrusive_1_1segment__tree__impl_a684131001e17323dfbf6b1781c632471}\label{classboost_1_1intrusive_1_1segment__tree__impl_a684131001e17323dfbf6b1781c632471}} 
+iterator {\bfseries get\+\_\+root} ()
+\item 
+\mbox{\Hypertarget{classboost_1_1intrusive_1_1segment__tree__impl_a562cca39fe52f31330ff71f32d58fb72}\label{classboost_1_1intrusive_1_1segment__tree__impl_a562cca39fe52f31330ff71f32d58fb72}} 
+const\+\_\+iterator {\bfseries const\+\_\+get\+\_\+root} () const
+\end{DoxyCompactItemize}
+\subsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classboost_1_1intrusive_1_1segment__tree__impl_a1c218f245dff93af18a0c42b61220289}\label{classboost_1_1intrusive_1_1segment__tree__impl_a1c218f245dff93af18a0c42b61220289}} 
+static const bool {\bfseries constant\+\_\+time\+\_\+size} = Constant\+Time\+Size
+\item 
+\mbox{\Hypertarget{classboost_1_1intrusive_1_1segment__tree__impl_a008d7ccdb07d7b2423d29e5ef2014dca}\label{classboost_1_1intrusive_1_1segment__tree__impl_a008d7ccdb07d7b2423d29e5ef2014dca}} 
+static const bool {\bfseries stateful\+\_\+value\+\_\+traits} = detail\+::is\+\_\+stateful\+\_\+value\+\_\+traits$<$value\+\_\+traits$>$\+::value
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\subsubsection*{template$<$typename Value\+Traits, class Size\+Type, bool Constant\+Time\+Size, typename Header\+Holder$>$\newline
+class boost\+::intrusive\+::segment\+\_\+tree\+\_\+impl$<$ Value\+Traits, Size\+Type, Constant\+Time\+Size, Header\+Holder $>$}
+
+This class is main class where all the functions are defined main main . 
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classboost_1_1intrusive_1_1segment__tree__impl_abda73e6d62b92e32db5df65cb425ac59}\label{classboost_1_1intrusive_1_1segment__tree__impl_abda73e6d62b92e32db5df65cb425ac59}} 
+\index{boost\+::intrusive\+::segment\+\_\+tree\+\_\+impl@{boost\+::intrusive\+::segment\+\_\+tree\+\_\+impl}!segment\+\_\+tree\+\_\+impl@{segment\+\_\+tree\+\_\+impl}}
+\index{segment\+\_\+tree\+\_\+impl@{segment\+\_\+tree\+\_\+impl}!boost\+::intrusive\+::segment\+\_\+tree\+\_\+impl@{boost\+::intrusive\+::segment\+\_\+tree\+\_\+impl}}
+\subsubsection{\texorpdfstring{segment\+\_\+tree\+\_\+impl()}{segment\_tree\_impl()}}
+{\footnotesize\ttfamily template$<$typename Value\+Traits , class Size\+Type , bool Constant\+Time\+Size, typename Header\+Holder $>$ \\
+\hyperlink{classboost_1_1intrusive_1_1segment__tree__impl}{boost\+::intrusive\+::segment\+\_\+tree\+\_\+impl}$<$ Value\+Traits, Size\+Type, Constant\+Time\+Size, Header\+Holder $>$\+::\hyperlink{classboost_1_1intrusive_1_1segment__tree__impl}{segment\+\_\+tree\+\_\+impl} (\begin{DoxyParamCaption}\item[{value\+\_\+type}]{input\mbox{[}$\,$\mbox{]},  }\item[{int}]{start,  }\item[{int}]{end }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+This function initialises and constructs tree. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em input} & input array \\
+\hline
+{\em start} & starting index of input \\
+\hline
+{\em end} & last index of input \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classboost_1_1intrusive_1_1segment__tree__impl_a1b2e8afd13fc6e33640665efa2677dba}\label{classboost_1_1intrusive_1_1segment__tree__impl_a1b2e8afd13fc6e33640665efa2677dba}} 
+\index{boost\+::intrusive\+::segment\+\_\+tree\+\_\+impl@{boost\+::intrusive\+::segment\+\_\+tree\+\_\+impl}!build@{build}}
+\index{build@{build}!boost\+::intrusive\+::segment\+\_\+tree\+\_\+impl@{boost\+::intrusive\+::segment\+\_\+tree\+\_\+impl}}
+\subsubsection{\texorpdfstring{build()}{build()}}
+{\footnotesize\ttfamily template$<$typename Value\+Traits , class Size\+Type , bool Constant\+Time\+Size, typename Header\+Holder $>$ \\
+void \hyperlink{classboost_1_1intrusive_1_1segment__tree__impl}{boost\+::intrusive\+::segment\+\_\+tree\+\_\+impl}$<$ Value\+Traits, Size\+Type, Constant\+Time\+Size, Header\+Holder $>$\+::build (\begin{DoxyParamCaption}\item[{auto}]{func }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+\begin{DoxyParams}{Parameters}
+{\em func} & merging function {\bfseries  Complexity } O(n) \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+/home/hari/\+G\+S\+O\+C/boost\+\_\+1\+\_\+67\+\_\+0/boost/\+Advanced-\/\+Intrusive-\/master/segment\+\_\+tree\+\_\+imple/segment\+\_\+tree.\+hpp\end{DoxyCompactItemize}
