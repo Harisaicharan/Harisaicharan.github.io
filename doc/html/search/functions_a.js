@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['merge',['merge',['../classboost_1_1intrusive_1_1list__impl.html#abb9a2b93c0b84ec5dbf23df2c3ff3dcf',1,'boost::intrusive::list_impl::merge(list_impl &amp;x)'],['../classboost_1_1intrusive_1_1list__impl.html#acae4748c2c7891009cafd2b2a1adc057',1,'boost::intrusive::list_impl::merge(list_impl &amp;x, Predicate p)']]]
+  ['query',['query',['../classboost_1_1intrusive_1_1fenwick__tree__impl.html#ab264157cf44f71965593bef1444d97ec',1,'boost::intrusive::fenwick_tree_impl::query()'],['../classboost_1_1intrusive_1_1segment__tree__impl.html#ad0aa848ccb9520e36cf4dfbf9149b150',1,'boost::intrusive::segment_tree_impl::query()'],['../file2_8cpp.html#a17b03fbda7b608491336e87588ae84f1',1,'query():&#160;file2.cpp']]]
 ];

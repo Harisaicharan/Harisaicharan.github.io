@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['get_5fchain_5fhead',['get_chain_head',['../classHLD.html#a68b3ca2eca7aa9aa6b72b8a6b73e79a9',1,'HLD']]],
-  ['get_5fchain_5fsize',['get_chain_size',['../classHLD.html#a026eff6f1285da4accb3e6e3a3408b85',1,'HLD']]]
+  ['hld',['HLD',['../classboost_1_1intrusive_1_1HLD.html#a57f95a8d4653ba18178223b24a8b1fcd',1,'boost::intrusive::HLD::HLD()'],['../hld__function_8hpp.html#a36ba3c1dd89cc491d3b60bbc3085bce9',1,'HLD():&#160;hld_function.hpp']]],
+  ['hld_5fimpl',['hld_impl',['../hld__function_8hpp.html#a229902f8e7acf2c342c24a31dec74f53',1,'hld_function.hpp']]]
 ];
